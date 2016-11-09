@@ -1,0 +1,43 @@
+{
+  "name": "slack-quote",
+  "version": "1.0.0",
+  "description": "Quote your favorite movies from slack",
+  "private": true,
+  "main": "bot.js",
+  "scripts": {
+    "test": "eslint *.js",
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "6.2.1",
+    "npm": "3.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pke/slack-quote"
+  },
+  "bugs": {
+    "url": "https://github.com/pke/slack-quote/issues"
+  },
+  "keywords": [
+    "bot",
+    "imdb",
+    "quote",
+    "slack"
+  ],
+  "author": "Philipp Kursawe",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.4.4",
+    "cheerio": "^0.22.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^1.2.4",
+    "name-to-imdb": "^1.4.1",
+    "winston": "^2.3.0",
+    "winston-papertrail": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
