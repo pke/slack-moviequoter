@@ -40,7 +40,7 @@
     "snyk": "^1.231.0"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
+    "eslint": "^6.5.1",
     "eslint-plugin-import": "^2.2.0"
   },
   "snyk": true
