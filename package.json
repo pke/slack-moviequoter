@@ -35,7 +35,7 @@
     "isomorphic-fetch": "^3.0.0",
     "koa": "^1.2.4",
     "name-to-imdb": "^2.1.1",
-    "winston": "^2.3.0",
+    "winston": "^3.3.0",
     "winston-papertrail": "^1.0.3",
     "snyk": "^1.316.1"
   },
