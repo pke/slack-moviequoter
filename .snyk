@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -14,3 +14,14 @@ patch:
   SNYK-JS-LODASH-567746:
     - botbuilder > botframework-connector > adal-node > async > lodash:
         patched: '2020-05-01T07:25:05.924Z'
+  'npm:semver:20150403':
+    - botbuilder > botframework-connector > browserify-fs > levelup > semver:
+        patched: '2024-08-29T06:35:43.195Z'
+        id: 'npm:semver:20150403'
+        path: botbuilder > botframework-connector > browserify-fs > levelup > semver
+    - botbuilder > botbuilder-core > botframework-connector > browserify-fs > levelup > semver:
+        patched: '2024-08-29T06:35:43.195Z'
+        id: 'npm:semver:20150403'
+        path: >-
+          botbuilder > botbuilder-core > botframework-connector > browserify-fs
+          > levelup > semver
